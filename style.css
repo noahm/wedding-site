@@ -1,20 +1,26 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Cormorant+Garamond&display=swap');
 
 body {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: rgb(237, 233, 219);
+  font-family: "Cormorant Garamond", Georgia, Cambria, serif;
+  background-color: #e5e0cd;
   text-align: center;
 }
 
 h1 {
-  font-family: "Cormorant Garamond", Georgia, Cambria, serif;
-  font-weight: 300;
+  font-family: "Clicker Script", cursive;
+  /* font-weight: 300; */
   font-size: 300%;
 }
 
 h1.emoji-header {
   font-size: 600%;
-  margin: 2rem;
+  margin: 2rem 0 -2rem;
+}
+
+hr {
+  width: 7rem;
+  border: none;
+  border-top: 1px solid black;
 }
 
 dt {
