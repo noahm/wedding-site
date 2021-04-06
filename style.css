@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&family=Cormorant+Garamond&display=swap');
 
 body {
   font-family: "Cormorant Garamond", Georgia, Cambria, serif;
-  background-color: #e5e0cd;
+  background-color: hsl(96, 22%, 91%);
   text-align: center;
 }
 
 h1 {
-  font-family: "Clicker Script", cursive;
+  font-family: Sacramento, cursive;
   /* font-weight: 300; */
   font-size: 300%;
 }
@@ -15,6 +15,12 @@ h1 {
 h1.emoji-header {
   font-size: 600%;
   margin: 2rem 0 -2rem;
+}
+
+.portrait {
+  border-width: 4px;
+  border-style: ridge;
+  border-color: hsl(96, 57%, 92%)
 }
 
 hr {
