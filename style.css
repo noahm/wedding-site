@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&family=Spinnaker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&family=Montserrat&display=swap');
 
 body {
-  font-family: Spinnaker, Georgia, Cambria, serif;
+  font-family: Montserrat, Georgia, Cambria, serif;
   background-color: hsl(96, 22%, 91%);
   text-align: center;
-  margin: 0;
+  margin: 0 1rem;
 }
 
 #sparkleLayer {
@@ -18,10 +18,10 @@ body {
 }
 
 .hero {
-  margin: 2rem;
+  margin: 2rem 0;
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -72,7 +72,6 @@ a:visited {
   .hero {
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
   }
   
   .portrait {
@@ -93,43 +92,43 @@ a:visited {
   background-position:center;
   background-size: 100% 100%;
   overflow: hidden;
-  z-index: 2;
-  color: tansparent;
+  color: transparent;
   opacity: 0.0;
   animation: glitter 6s linear 0s infinite normal;
+  z-index: 1;
 }
   
 .shine.small {
-  width: 15px;
-  height: 15px;
-}
-  
-.shine.medium {
   width: 25px;
   height: 25px;
 }
   
-.shine.large {
+.shine.medium {
   width: 35px;
   height: 35px;
+}
+  
+.shine.large {
+  width: 50px;
+  height: 50px;
 }
   
 /*CSS3 keyframes for glittering effect*/
 @-webkit-keyframes glitter {
   0% {
-    -webkit-transform: scale(0.3) rotate(0deg);
+    transform: scale(0.3) rotate(0deg);
     opacity: 0;
   }
   25% {
-    -webkit-transform: scale(1) rotate(360deg);
+    transform: scale(1) rotate(360deg);
     opacity: 1;
   }
   50% {
-    -webkit-transform: scale(0.3) rotate(720deg);
+    transform: scale(0.3) rotate(720deg);
     opacity: 0;
   }
   100% {
-    -webkit-transform: scale(0.3) rotate(0deg);
+    transform: scale(0.3) rotate(0deg);
     opacity: 0;
   }
 }
