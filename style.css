@@ -18,7 +18,7 @@ body {
 }
 
 .hero {
-  margin: 3rem;
+  margin: 2rem;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -33,12 +33,13 @@ h1 {
 .portrait {
   flex-grow: 0;
   flex-shrink: 0;
-  height: 25rem;
+  width: calc(100vw - 4rem);
   margin-bottom: 2rem;
 }
 
 .portrait img {
-  height: 100%;
+  width: 100%;
+  max-width: 20rem;
   box-sizing: border-box;
   border-width: 4px;
   border-style: ridge;
@@ -76,6 +77,7 @@ a:visited {
   
   .portrait {
     margin-bottom: 0;
+    width: auto;
     margin-right: 2rem;
   }
 }
