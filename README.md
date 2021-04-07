@@ -5,3 +5,4 @@
 - [x] favicon
 - [ ] video call instructions and etiquette
 - [x] background sparkles
+- [x] responsive layout
