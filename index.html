@@ -41,5 +41,32 @@
       <dt><a href="https://www.amazon.com/wedding/share/noah-and-julie">Gift Registry</a></dt>
       <dd>We're still adding items as we think of things</dd>
     </dl>
+    <div id="sparkleLayer"></div>
+    <script>
+      /* Adapted from https://codepen.io/kucsatax/pen/vyWevX */
+      var layer = document.querySelector('#sparkleLayer');
+      var totalStars =  500;
+      var sparkleSpeed = 20;
+      
+      function createStar(size) {
+        var template = document.createElement('div');
+        template.className = 'shine ' + size;
+        template.style.top = (Math.random() * 100) + '%';
+        template.style.left = (Math.random() * 100) + '%';
+        template.style.animationDelay = (Math.random() * sparkleSpeed) + 's';
+        layer.appendChild(template);
+      };
+     
+      for(var i = 0; i < totalStars; i++) {
+        var size = 'large';
+        if(i % 2 === 0) {
+          size = 'small';
+        } else if(i % 3 === 0) {
+          size = 'medium';
+        }
+        
+        createStar(size);
+      }
+    </script>
   </body>
 </html>

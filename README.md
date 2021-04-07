@@ -4,4 +4,4 @@
 - [x] classy body font update
 - [x] favicon
 - [ ] video call instructions and etiquette
-- [ ] background sparkles
+- [x] background sparkles
