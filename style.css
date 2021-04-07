@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&family=Spinnaker&display=swap');
 
 body {
-  font-family: "Cormorant Garamond", Georgia, Cambria, serif;
+  font-family: Spinnaker, Georgia, Cambria, serif;
   background-color: hsl(96, 22%, 91%);
   text-align: center;
 }
@@ -35,4 +35,12 @@ dt {
 
 dd {
   margin: 0.5rem 0 1.5rem 0;
+}
+
+a, a:active {
+  color: hsl(96, 40%, 40%);
+}
+
+a:visited {
+  color: hsl(96, 30%, 30%);
 }
