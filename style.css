@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&family=Dancing+Script&display=swap');
 
 body {
-  font-family: "Dancing Script", Georgia, Cambria, serif;
-  background-color: hsl(58, 22%, 91%);
+  font-family: Sacramento, cursive;
+  background-color: hsl(46, 35%, 91%);
   text-align: center;
   margin: 0 2rem;
   color: black;
-  font-size: 24px;
+  font-size: 32px;
 }
 
 #sparkleLayer {
@@ -27,10 +27,13 @@ body {
 }
 
 h1 {
-  font-family: Sacramento, cursive;
-  font-size: 45px;
+  font-size: 52px;
   margin: 0;
-  /* color: #606060 */
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: normal;
 }
 
 .portrait {
@@ -44,13 +47,9 @@ h1 {
   width: 100%;
   max-width: 20rem;
   box-sizing: border-box;
-  border-width: 4px;
+  border-width: 6px;
   border-style: ridge;
   border-color: hsl(96, 57%, 92%)
-}
-
-h2 {
-  font-size: 36px;
 }
 
 hr {
@@ -62,7 +61,7 @@ hr {
 }
 
 dt {
-  font-size: 150%;
+  font-size: 130%;
   margin-top: 2.5rem;
 }
 
@@ -70,13 +69,13 @@ dd {
   margin: 0.5rem 0 0 0;
 }
 
-a, a:active {
-  color: hsl(96, 40%, 40%);
+a, a:active, a:visited {
+  color: hsl(112, 80%, 22%);
   text-decoration: none;
 }
 
-a:visited {
-  color: hsl(96, 30%, 30%);
+a:hover {
+  text-decoration: underline;
 }
 
 @media (min-width: 1000px) {

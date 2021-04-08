@@ -6,3 +6,4 @@
 - [ ] video call instructions and etiquette
 - [x] background sparkles
 - [x] responsive layout
+- [ ] flower pic instead of BR
