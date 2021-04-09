@@ -4,71 +4,80 @@
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Noah & Julie are getting married!</title>
-    <meta name="theme-color" content="#5d8e3d" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <!-- generics -->
-    <link rel="icon" href="/favicon32.png" sizes="32x32">
-    <link rel="icon" href="/favicon57.png" sizes="57x57">
-    <link rel="icon" href="/favicon76.png" sizes="76x76">
-    <link rel="icon" href="/favicon96.png" sizes="96x96">
-    <link rel="icon" href="/favicon128.png" sizes="128x128">
-    <link rel="icon" href="/favicon192.png" sizes="192x192">
-    <link rel="icon" href="/favicon228.png" sizes="228x228">
+    <link rel="icon" href="/favicon32.png" sizes="32x32" />
+    <link rel="icon" href="/favicon57.png" sizes="57x57" />
+    <link rel="icon" href="/favicon76.png" sizes="76x76" />
+    <link rel="icon" href="/favicon96.png" sizes="96x96" />
+    <link rel="icon" href="/favicon128.png" sizes="128x128" />
+    <link rel="icon" href="/favicon192.png" sizes="192x192" />
+    <link rel="icon" href="/favicon228.png" sizes="228x228" />
     <!-- Android -->
-    <link rel="shortcut icon" sizes="196x196" href=“/favicon-196.png">
+    <link rel="shortcut icon" href="/favicon-196.png" sizes="196x196" />
     <!-- iOS -->
-    <link rel="apple-touch-icon" href="/favicon120.png" sizes="120x120">
-    <link rel="apple-touch-icon" href="/favicon152.png" sizes="152x152">
-    <link rel="apple-touch-icon" href="/favicon180.png" sizes="180x180">
+    <link rel="apple-touch-icon" href="/favicon120.png" sizes="120x120" />
+    <link rel="apple-touch-icon" href="/favicon152.png" sizes="152x152" />
+    <link rel="apple-touch-icon" href="/favicon180.png" sizes="180x180" />
   </head>
   <body>
     <div id="sparkleLayer"></div>
     <script>
       /* Adapted from https://codepen.io/kucsatax/pen/vyWevX */
-      var layer = document.querySelector('#sparkleLayer');
+      var layer = document.querySelector("#sparkleLayer");
       var totalStars = 100;
       var sparkleSpeed = 20;
-      
+
       function createStar(size) {
-        var template = document.createElement('div');
-        template.className = 'shine ' + size;
-        template.style.top = (Math.random() * 100) + '%';
-        template.style.left = (Math.random() * 100) + '%';
-        template.style.animationDelay = (Math.random() * sparkleSpeed) + 's';
+        var template = document.createElement("div");
+        template.className = "shine " + size;
+        template.style.top = Math.random() * 100 + "%";
+        template.style.left = Math.random() * 100 + "%";
+        template.style.animationDelay = Math.random() * sparkleSpeed + "s";
         layer.appendChild(template);
-      };
-     
-      for(var i = 0; i < totalStars; i++) {
-        var size = 'large';
-        if(i % 2 === 0) {
-          size = 'small';
-        } else if(i % 3 === 0) {
-          size = 'medium';
+      }
+
+      for (var i = 0; i < totalStars; i++) {
+        var size = "large";
+        if (i % 2 === 0) {
+          size = "small";
+        } else if (i % 3 === 0) {
+          size = "medium";
         }
-        
+
         createStar(size);
       }
     </script>
-    <section class="hero">
-      <h1 class="portrait"><img src="portrait.jpeg" alt="Illustrated portrait of Noah & Julie" /></h1>
-      <h1 class="announcement">Noah & Julie<br />are getting married!</h1>
+    <h1 class="portrait">
+      <img src="portrait.jpeg" alt="Illustrated portrait of Noah & Julie" />
+    </h1>
+    <section class="content">
+      <h1 class="announcement">
+        Noah & Julie <br />
+        are getting married!
+      </h1>
+      <hr />
+      <h2>
+        Join us <br />
+        April&nbsp;17th, 2021 <br /><span class="dt-sep">&mdash;</span>
+        1:00 pm
+      </h2>
+      <dl>
+        <dt>
+          <a href="https://forms.gle/T2MisvMUxdhyACEt9">Virtual Guest RSVP</a>
+        </dt>
+        <dd>Share your email with us to receive an invite to the video call</dd>
+        <dt>
+          <a href="https://videobooth.app/noahandjulie">Video Guestbook</a>
+        </dt>
+        <dd>Open for congratulations, imparted wisdom, or pet cameos</dd>
+        <dt>
+          <a href="https://www.amazon.com/wedding/share/noah-and-julie"
+            >Gift Registry</a
+          >
+        </dt>
+        <dd>For those in search of a gift idea</dd>
+      </dl>
     </section>
-    <hr />
-    <h2>Join us<br />April&nbsp;17th, 2021<br />1:00 pm</h2>
-    <dl>
-      <dt>
-        <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLScVyaPFDnrhtcHnYwNj8mghae7z38Q4gfQtzPkFF8pEWSRcoQ/viewform"
-          >Virtual Guest RSVP</a
-        >
-      </dt>
-      <dd>Share your email with us to receive an invite to the video call</dd>
-      <dt><a href="https://videobooth.app/noahandjulie">Video Guestbook</a></dt>
-      <dd>
-        Open for congratulations, imparted wisdom, or pet cameos
-      </dd>
-      <dt><a href="https://www.amazon.com/wedding/share/noah-and-julie">Gift Registry</a></dt>
-      <dd>For those in search of a gift idea</dd>
-    </dl>
   </body>
 </html>
