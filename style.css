@@ -89,6 +89,14 @@ a:hover {
   text-decoration: underline;
 }
 
+@media (max-width: 1023px) {
+  .time {
+    font-size: 75%;
+    position: relative;
+    top: -0.5rem;
+  }
+}
+
 @media (min-width: 1024px) {
   html,
   body {
