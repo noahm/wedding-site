@@ -54,7 +54,7 @@ h2 {
   box-sizing: border-box;
   border-width: 6px;
   border-style: ridge;
-  border-color: hsl(46, 56%, 92%);
+  border-color: #f8ebe1;
 }
 
 .dt-sep {
