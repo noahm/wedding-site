@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Sacramento&family=Dancing+Script&display=swap");
 
 :root {
-  --accent-hue: 51;
+  --accent-hue: 53;
 }
 
 body {
@@ -62,7 +62,7 @@ h2 {
   border-style: ridge;
   border-color: hsl(26, 62%, 93%); */
   border-radius: 100%;
-  border: 2px solid hsl(var(--accent-hue), 40%, 81%);
+  border: 2px solid hsl(var(--accent-hue), 95%, 68%);
 }
 
 .dt-sep {
@@ -73,7 +73,7 @@ h2 {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
   word-spacing: 30px;
-  color: hsl(var(--accent-hue), 100%, 36%);
+  color: hsl(var(--accent-hue), 100%, 49%);
 }
 
 dt {
@@ -88,7 +88,7 @@ dd {
 a,
 a:active,
 a:visited {
-  color: hsl(var(--accent-hue), 100%, 36%);
+  color: hsl(var(--accent-hue), 100%, 45%);
   text-decoration: none;
 }
 
